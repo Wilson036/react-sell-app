@@ -53,7 +53,6 @@ const GlobalStyles = createGlobalStyle`
       }
       
       a,a:hover{
-        color: #fff;
         text-decoration:none;
       }
     
