@@ -77,5 +77,21 @@ const GlobalStyles = createGlobalStyle`
     .my-fb-class i{
         margin-right: 20px;
     }
+    .transition-enter {
+      opacity: 0.01;
+    }
+
+    .transition-enter.transition-enter-active {
+      opacity: 1;
+      transition: opacity 0.3s ease-in;
+    }
+    .transition-exit {
+      opacity: 1;
+    }
+    .transition-exit.transition-exit-active {
+      opacity: 0.01;
+      transition: opacity 0.3s ease-in;
+    }
+
 `;
 export default GlobalStyles;
